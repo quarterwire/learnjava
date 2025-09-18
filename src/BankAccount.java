@@ -13,6 +13,7 @@ public class BankAccount {
         }
 
 
+
         balance = newBalance;
         IO.println("Deposited $" + amount + ", Balance: $" + balance);
     }
