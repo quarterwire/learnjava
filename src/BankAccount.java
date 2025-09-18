@@ -12,6 +12,7 @@ public class BankAccount {
             IO.println("Canceled job");
         }
 
+
         balance = newBalance;
         IO.println("Deposited $" + amount + ", Balance: $" + balance);
     }
