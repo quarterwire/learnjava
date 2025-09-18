@@ -8,6 +8,9 @@ public class Server implements Runnable{
             } catch (InterruptedException e) {
                 IO.println("Canceled job");
             }
+            if ( i == 3) {
+                System.exit(0);
+            }
         }
     }
 }
